@@ -15,50 +15,50 @@ dependencies:
   cupertino_icons: ^1.0.8
 
   # State Management
-  flutter_riverpod: ^2.0.2  # Recommended for efficient state management
+  flutter_riverpod: ^2.6.1  # Recommended for efficient state management
 
   # Navigation
-  go_router: ^10.0.0  # Structured route management with deep linking
+  go_router: ^14.8.1  # Structured route management with deep linking
 
   # HTTP & Networking
-  dio: ^5.0.0  # Advanced HTTP client for API calls
+  dio: ^5.8.0+1  # Advanced HTTP client for API calls
 
   # JSON Serialization & Freezed Models
-  json_serializable: ^6.5.4  # Auto-generate JSON code
-  freezed_annotation: ^2.2.0  # Data classes with Freezed
+  json_serializable: ^6.9.4  # Auto-generate JSON code
+  freezed_annotation: ^3.0.0  # Data classes with Freezed
 
   # Database & Persistence
-  drift: ^2.0.0  # SQLite ORM in Dart
-  sqlite3_flutter_libs: ^0.5.0  # Required for Drift
-  hive: ^2.0.0  # Lightweight NoSQL database
+  drift: ^2.25.1  # SQLite ORM in Dart
+  sqlite3_flutter_libs: ^0.5.31  # Required for Drift
+  hive: ^2.2.3  # Lightweight NoSQL database
   hive_flutter: ^1.1.0  # Flutter bindings for Hive
-  firebase_core: ^2.15.0  # Firebase SDK core
-  cloud_firestore: ^4.10.0  # Firebase Firestore database
+  firebase_core: ^3.12.1  # Firebase SDK core
+  cloud_firestore: ^5.6.5  # Firebase Firestore database
 
   # Authentication & Security
-  firebase_auth: ^4.8.0  # Firebase authentication
-  flutter_secure_storage: ^8.0.0  # Secure storage for sensitive data
+  firebase_auth: ^5.5.1  # Firebase authentication
+  # flutter_secure_storage: ^9.2.4  # Secure storage for sensitive data
 
   # Date, Currency, Formatting
-  intl: ^0.18.0  # Internationalization and formatting
-  flutter_currency_formatter: ^2.0.0  # Currency formatting
+  intl: ^0.20.2  # Internationalization and formatting
+  # flutter_currency_formatte  # Currency formatting
 
   # UI Enhancements
-  flutter_slidable: ^2.0.0  # Swipe actions in lists
-  flutter_expandable_fab: ^1.0.0  # Expandable Floating Action Button
-  syncfusion_flutter_charts: ^22.2.8  # Charts & data visualization
+  flutter_slidable: ^4.0.0  # Swipe actions in lists
+  flutter_expandable_fab: ^2.3.0  # Expandable Floating Action Button
+  syncfusion_flutter_charts: ^28.2.7  # Charts & data visualization
 
   # Utility & Hooks
-  flutter_hooks: ^0.18.0  # Enhances stateful widgets with hooks
+  flutter_hooks: ^0.21.2  # Enhances stateful widgets with hooks
 
   # Notifications
-  firebase_messaging: ^14.5.0  # Push notifications
+  firebase_messaging: ^15.2.4  # Push notifications
 
   # Logging & Debugging
-  logger: ^1.2.0  # Structured logging tool
+  logger: ^2.5.0  # Structured logging tool
 
   # Background Tasks
-  workmanager: ^0.5.0  # Background processing tasks
+  workmanager: ^0.5.2  # Background processing tasks
 
 
 dev_dependencies:
@@ -69,9 +69,9 @@ dev_dependencies:
   flutter_lints: ^5.0.0  # Recommended lint rules
 
   # Build Tools
-  build_runner: ^2.3.3  # Required for code generation
-  freezed: ^2.3.2  # Data class generator
-  json_serializable: ^6.5.4  # Auto JSON conversion
+  build_runner: ^2.4.15  # Required for code generation
+  freezed: ^3.0.2  # Data class generator
+  json_serializable: ^6.9.4  # Auto JSON conversion
 
 flutter:
   uses-material-design: true

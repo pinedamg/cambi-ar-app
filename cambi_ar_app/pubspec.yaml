@@ -1,0 +1,91 @@
+name: cambi_ar_app
+description: "A new Flutter project."
+publish_to: 'none' # Private package, remove if publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Components & Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.0.2  # Recommended for efficient state management
+
+  # Navigation
+  go_router: ^10.0.0  # Structured route management with deep linking
+
+  # HTTP & Networking
+  dio: ^5.0.0  # Advanced HTTP client for API calls
+
+  # JSON Serialization & Freezed Models
+  json_serializable: ^6.5.4  # Auto-generate JSON code
+  freezed_annotation: ^2.2.0  # Data classes with Freezed
+
+  # Database & Persistence
+  drift: ^2.0.0  # SQLite ORM in Dart
+  sqlite3_flutter_libs: ^0.5.0  # Required for Drift
+  hive: ^2.0.0  # Lightweight NoSQL database
+  hive_flutter: ^1.1.0  # Flutter bindings for Hive
+  firebase_core: ^2.15.0  # Firebase SDK core
+  cloud_firestore: ^4.10.0  # Firebase Firestore database
+
+  # Authentication & Security
+  firebase_auth: ^4.8.0  # Firebase authentication
+  flutter_secure_storage: ^8.0.0  # Secure storage for sensitive data
+
+  # Date, Currency, Formatting
+  intl: ^0.18.0  # Internationalization and formatting
+  flutter_currency_formatter: ^2.0.0  # Currency formatting
+
+  # UI Enhancements
+  flutter_slidable: ^2.0.0  # Swipe actions in lists
+  flutter_expandable_fab: ^1.0.0  # Expandable Floating Action Button
+  syncfusion_flutter_charts: ^22.2.8  # Charts & data visualization
+
+  # Utility & Hooks
+  flutter_hooks: ^0.18.0  # Enhances stateful widgets with hooks
+
+  # Notifications
+  firebase_messaging: ^14.5.0  # Push notifications
+
+  # Logging & Debugging
+  logger: ^1.2.0  # Structured logging tool
+
+  # Background Tasks
+  workmanager: ^0.5.0  # Background processing tasks
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting & Code Quality
+  flutter_lints: ^5.0.0  # Recommended lint rules
+
+  # Build Tools
+  build_runner: ^2.3.3  # Required for code generation
+  freezed: ^2.3.2  # Data class generator
+  json_serializable: ^6.5.4  # Auto JSON conversion
+
+flutter:
+  uses-material-design: true
+
+  # # Asset Management
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  #   - assets/fonts/
+
+  # # Custom Fonts
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
